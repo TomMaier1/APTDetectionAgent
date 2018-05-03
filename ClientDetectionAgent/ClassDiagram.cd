@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="ClientDetectionAgent.Configuration">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientDetectionAgent.Criteria">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientDetectionAgent.EventHistory">
+    <Position X="5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientDetectionAgent.Program">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientDetectionAgent.ProjectInstaller">
+    <Position X="13.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAgAAACAAAACAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ProjectInstaller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClientDetectionAgent.Service1">
+    <Position X="9" Y="5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="ClientDetectionAgent.Service1.SERVICE_STATUS">
+        <TypeIdentifier>
+          <NewMemberFileName>Service1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="ClientDetectionAgent.Service1.SERVICE_STATE">
+        <TypeIdentifier>
+          <NewMemberFileName>Service1.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQCQAABEAEBCAACACACwAAAgAAEQAAAgAAAA=</HashCode>
+      <FileName>Service1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PredicateBuilder" Collapsed="true">
+    <Position X="5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAEACAAAAAAAAAAAAAACAAAEAgAAgAAAAAAAA=</HashCode>
+      <FileName>PredicateBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.ServiceProcess.ServiceBase" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Configuration.Install.Installer" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

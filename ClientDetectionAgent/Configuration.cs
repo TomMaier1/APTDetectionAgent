@@ -5,9 +5,7 @@
     /// </summary>
     internal class Configuration
     {
-        public const string directoryPath = @"C:\Program Files\ATP Detection Agent";
-        public const string logFile = directoryPath + @"\logfile.log";
+        //umbiegen auf den Folder aus der jetztigen Session heraus
         public const string sysmonLogName = "Microsoft-Windows-Sysmon/Operational";
-        public const string configFilePath = @"C:\temp\myXml.xml";
     }
 }

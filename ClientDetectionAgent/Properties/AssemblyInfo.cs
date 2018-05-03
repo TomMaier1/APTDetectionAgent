@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClientDetectionAgent")]
+[assembly: AssemblyTitle("APT Detection Agent")]
 [assembly: AssemblyDescription("Analyzes Sysmon Eventlogs and triggers alarms of events defined in detection agent config xml")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tom Maier")]
-[assembly: AssemblyProduct("Client Detection Agent")]
+[assembly: AssemblyProduct("APT Detection Agent")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

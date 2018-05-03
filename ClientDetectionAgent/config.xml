@@ -1,0 +1,61 @@
+<APTDetectionAgent>
+
+  <Event id="1">
+    <Image condition="image">calc.exe</Image>
+    <IntegrityLevel condition="is">High</IntegrityLevel>
+  </Event>
+  <!-- Event 2: File Creation -->
+  <Event id="2">
+    <Image condition="contains">Windows</Image>
+  </Event>
+  
+  <Event id="2">
+    <Image condition="contains">Program Files</Image>
+  </Event>
+  
+  <!-- Event 4: Sysmon service state changed -->
+  <Event id="4">
+    <State condition="is">Stopped</State>
+  </Event>
+ 
+  <!-- Event 6: Driver Loaded -->
+  <Event id="6">
+    <ImageLoaded condition="not contains">Windows\System32\drivers</ImageLoaded>
+  </Event>
+  
+  <!-- Event 8: CreateRemoteThread -->
+  <Event id="8">
+    <SourceImage condition="not contains">Windows</SourceImage>
+    <TargetImage condition="image">lsass.exe</TargetImage >	
+  </Event>
+  
+  <Event id="8">
+    <SourceImage condition="not contains">Program Files</SourceImage>
+    <TargetImage condition="image">lsass.exe</TargetImage >	
+  </Event>
+
+  <!-- Event 9: RawAccessRead -->
+  <Event id="9">
+    <Image condition="not contains">Windows</Image>
+  </Event>
+  
+  <Event id="9">
+    <Image condition="not contains">Program Files</Image>
+  </Event>
+  
+  <!-- Event 10: ProcessAccess -->
+  <Event id="10">
+    <Image condition="not contains">Windows</Image>
+    <TargetImage condition="image">lsass.exe</TargetImage>	
+  </Event>
+  
+  <Event id="10">
+    <Image condition="not contains">Program Files</Image>
+    <TargetImage condition="image">lsass.exe</TargetImage>	
+  </Event>
+  
+  <!-- Event 15: FileCreateStreamHash -->
+  <Event id="15">
+    <SourceImage condition="image">lsass.exe</SourceImage>
+  </Event>
+</APTDetectionAgent>

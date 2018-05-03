@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.projectInstaller1 = new ClientDetectionAgent.ProjectInstaller();
             // 
             // Service1
             // 
-            this.ServiceName = "ATPDetectionAgent";
+            this.ServiceName = "APT Detection Agent";
 
         }
 
         #endregion
+
+        private ProjectInstaller projectInstaller1;
     }
 }
